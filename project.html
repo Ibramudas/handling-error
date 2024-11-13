@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>JAVASCRIPT ERROR HANDLING PROJECT</title>
+</head>
+<body>
+    <h4>IBRAMUDAS WEBSITE</h4>
+    <h5 id="h5"></h5>
+    <script>
+        try{
+            addalert("!Welcome Guest To Ibramudas website");
+        }
+        catch(err){
+        document.getElementById("h5").innerHTML= err.message;
+        }
+    </script>
